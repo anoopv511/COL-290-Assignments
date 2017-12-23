@@ -1,0 +1,2 @@
+Assumptions
+(i)the inputs are given in such order where the atleast one of the next input nets given is already present (except for the first input) 

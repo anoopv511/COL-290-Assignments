@@ -1,0 +1,8 @@
+To make the excutable use the follwing commnads
+bison -dy netparse.y
+flex  netparser.l
+gcc lex.yy.c y.tab.c -o ac_circuit_solver -lm
+
+
+
+There could be last digit mismatchings due to difference in precision of variables and numbers handled at each point.We used double and double complex at each point of calculation. 
